@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="News"
+    android:id="mNews"
+    app:showAsAction="ifRoom"
+    android:icon="@drawable/baseline_newspaper"/>
+
+    <item android:title="Global"
+        android:id="mGlobal"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/baseline_public"/>
+
+    <item android:title="For you"
+        android:id="mForyou"
+        android:icon="@drawable/baseline_star"
+        app:showAsAction="ifRoom"/>
+
+    <item android:title="Trend"
+        android:id="mTrend"
+        android:icon="@drawable/baseline_trending"
+        app:showAsAction="ifRoom"/>
+</menu>

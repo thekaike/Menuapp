@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mArquivo"
+        android:icon="@drawable/baseline_archive"
+        android:title="arquivo"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/mAltear"
+        android:icon="@drawable/baseline_update"
+        android:title="alterar"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/mExcluir"
+        android:icon="@drawable/baseline_delete_24"
+        android:title="excluir"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/mSalvar"
+        android:icon="@drawable/baseline_save"
+        android:title="salvar"
+        app:showAsAction="always" />
+</menu>

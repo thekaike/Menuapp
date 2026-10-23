@@ -7,7 +7,7 @@
         android:title="arquivo"
         app:showAsAction="always" />
     <item
-        android:id="@+id/mAltear"
+        android:id="@+id/mAlterar"
         android:icon="@drawable/baseline_update"
         android:title="alterar"
         app:showAsAction="always" />
